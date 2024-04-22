@@ -1,3 +1,13 @@
+body {
+	padding: 25px;
+	background-color: white;
+	color: black;
+	font-size: 25px;
+  }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 .wrapper {
 	max-width: 1000px
 }
@@ -7,5 +17,11 @@
 	margin-right: auto;
 }
 footer{
-	background-color: darkgrey;
+	background-color: rgb(173, 43, 43);
+}
+.gomb:hover{
+	background-color: rgb(173, 43, 43);
+	color: white;
+	border-color: rgb(173, 43, 43);
+	box-shadow: 1px 1px 25px rgb(173, 43, 43);
 }

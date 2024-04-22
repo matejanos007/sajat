@@ -10,17 +10,20 @@
 </head>
 <body>
 
+    <div>
+      <img src="./img/logok/standard_3.gif" alt="Kuruma" title="Kuruma" class="w-100">
+      <nav>
+        <button onclick="darkmode()">Toggle dark mode</button>
+      </nav>
+      <br><br>
+
+    </div>
 
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-        </ol>
+
         
-        <div class="carousel-inner">
+        <div class="carousel-inner w-75 d-none d-md-block mx-auto">
           <div class="carousel-item active">
             <!--1920x800-->
             <img src="./img/slide/mitsubishi.png" class="d-block w-100" alt="...">
@@ -50,6 +53,8 @@
               <h5>Toyota</h5>
               <p>A logóra kattintva több információt kaphatsz!</p>
         </div>
+        
+
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -64,40 +69,41 @@
 
 
 
+
         <div class="row">
-          <div class="card col-sm-2 kartya">
+          <div class="col-sm-2 kartya">
             <img class="card-img-top" src="./img/logok/mitsubishi200.png" alt="Card image">
             <div class="card-body">
               <h4 class="card-title">Mitsubishi</h4>
               <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">Tovább a weboldalra -></a>
+              <a href="#" class="btn btn-secondary gomb">Tovább a weboldalra -></a>
             </div>
           </div>
           <br>
-          <div class="card col-sm-2 kartya">
-            <img class="card-img-top" src="./img/logok/honda200.png" alt="Card image">
+          <div class="col-sm-2 kartya">
+            <img class="card-img-top" src="./img/logok/honda200n.png" alt="Card image">
             <div class="card-body">
               <h4 class="card-title">Honda</h4>
               <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">Tovább a weboldalra -></a>
+              <a href="#" class="btn btn-secondary gomb">Tovább a weboldalra -></a>
             </div>
           </div>
           <br>
-          <div class="card col-sm-2 kartya">
+          <div class="col-sm-2 kartya">
             <img class="card-img-top" src="./img/logok/nissan200.png" alt="Card image">
             <div class="card-body">
-              <h4 class="card-title">Mitsubishi</h4>
+              <h4 class="card-title">Nissan</h4>
               <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">Tovább a weboldalra -></a>
+              <a href="#" class="btn btn-secondary gomb">Tovább a weboldalra -></a>
             </div>
           </div>
           <br>
-          <div class="card col-sm-2 kartya">
-            <img class="card-img-top" src="./img/logok/toyota200.png" alt="Card image">
+          <div class="col-sm-2 kartya">
+            <img class="card-img-top" src="./img/logok/toyota200n.png" alt="Card image">
             <div class="card-body">
-              <h4 class="card-title">Mitsubishi</h4>
+              <h4 class="card-title">Toyota</h4>
               <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">Tovább a weboldalra -></a>
+              <a href="#" class="btn btn-secondary gomb">Tovább a weboldalra -></a>
             </div>
           </div>
           <br>
@@ -114,7 +120,12 @@
       </footer>
     
 
-
+      <script>
+        function darkmode() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
