@@ -12,9 +12,23 @@
 
     <div>
       <img src="./img/logok/standard_3.gif" alt="Kuruma" title="Kuruma" class="w-100">
-      <nav>
-        <button onclick="darkmode()">Toggle dark mode</button>
-      </nav>
+      <label for="theme" class="theme">
+        <span class="theme__toggle-wrap">
+          <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="dark"  onclick="darkmode()">
+          <span class="theme__fill"></span>
+          <span class="theme__icon">
+            <span class="theme__icon-part"></span>
+            <span class="theme__icon-part"></span>
+            <span class="theme__icon-part"></span>
+            <span class="theme__icon-part"></span>
+            <span class="theme__icon-part"></span>
+            <span class="theme__icon-part"></span>
+            <span class="theme__icon-part"></span>
+            <span class="theme__icon-part"></span>
+            <span class="theme__icon-part"></span>
+          </span>
+        </span>
+      </label>
       <br><br>
 
     </div>
@@ -65,6 +79,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <br><br>
       
 
 
