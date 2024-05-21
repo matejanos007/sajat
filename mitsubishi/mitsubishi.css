@@ -5,12 +5,12 @@ body {
 	font-size: 25px;
 	background-image: url(./img/bg/bganimated.png);
 	background-repeat: repeat;
-
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 .dark-mode {
 	background-image: url(./img/bg/bganimatedv3.png);
-  background-color: white;
-  color: black;
+ 	background-color: white;
+  	color: black;
 }
 .wrapper {
 	max-width: 1000px
@@ -158,5 +158,6 @@ footer{
   .block:after {
 	filter: blur(50px);
   }
-  
+
+
   
